@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exit Statuses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        
+        h2 {
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+        }
+        
+        .exit-status {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../index.html">
+        <button>back</button>
+    </a>
+    <div>
+        <section class="exit-status">
+            <h2>cd</h2>
+            <p>
+                <strong>Usage:</strong><br>
+                <code>cd &lt;arg&gt;</code><br>
+                <code>cd &lt;no arg&gt;</code> == <code>cd $HOME</code> (note: if $HOME is unset exit status 1)<br>
+                <code>cd &lt;arg1&gt; &lt;arg1&gt;</code> -> exit status 2<br>
+                <code>cd &lt;dir name over 255&gt;</code> -> exit status 1<br>
+                <code>cd &lt;non existent dir&gt;</code> -> exit status 1
+            </p>
+        </section>
+
+        <section class="exit-status">
+            <h2>echo</h2>
+            <p>
+                <strong>Usage:</strong><br>
+                <code>echo &lt;arg1&gt; &lt;arg2&gt; ...</code><br>prints strings<br>no known exit statuses
+            </p>
+        </section>
+
+        <section class="exit-status">
+            <h2>pwd</h2>
+            <p>
+                prints working directory using getcwd function <br>minishell ver: ignore args
+                <br>no known exit statuses
+            </p>
+        </section>
+
+        <section class="exit-status">
+            <h2>env</h2>
+            <p>
+                prints current environment <br>minishell ver: ignore args
+                <br>no known exit statuses
+            </p>
+        </section>
+
+        <section class="exit-status">
+            <h2>unset</h2>
+
+            <p>
+                <code>unset &lt;arg1&gt; &lt;arg2&gt; ...</code><br> unsets environment variables<br>no known exit statuses
+            </p>
+        </section>
+
+        <section class="exit-status">
+            <h2>export</h2>
+            <p>
+                <strong>Usage:</strong><br>
+                <code>export &lt;arg1&gt; &lt;arg2&gt; ... (arg: &lt;string&gt;=&lt;string&gt;/ &lt;string&gt;+=&lt;string&gt;)</code><br> exports environment variables<br>no known exit statuses
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>

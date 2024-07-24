@@ -1,0 +1,2 @@
+typeof(string)
+typeof(null)

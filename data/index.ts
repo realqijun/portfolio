@@ -49,12 +49,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building neocity website",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/neocities-Logo.png",
     spareImg: "/grid.svg",
   },
   {
@@ -72,27 +72,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    description: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Ultimate Tic Tac Toe agent",
+    description: "Challenge an AI trained to play Ultimate Tic Tac Toe. This project showcases my skills in Feature Engineering, Linear Regression, and Neural Networks.",
+    img: "/uttt.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://ultimatettt-frontend.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    description: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Movie App",
+    description: "A simple movie web app that allows you to search for movies and view trending movies.",
+    img: "/movieapp.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://movie-app-eta-lemon.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    description: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "So Long",
+    description: "A basic 2D game written in C using the minilibx library. The game features a player that can move around the screen and collect items.",
+    img: "/so_long.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://github.com/realqijun/so_long",
   },
   {
     id: 4,
@@ -215,3 +215,16 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
+export const leftList = [
+  'C/C++',
+  'Python',
+  'Java',
+  'Javascript',
+]
+
+export const rightList = [
+  'React',
+  'Next.js',
+  'TypeScript',
+]

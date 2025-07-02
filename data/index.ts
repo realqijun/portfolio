@@ -49,12 +49,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building neocity website",
+    title: "Currently learning how to build dynamic websites",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute -right-10 -bottom-10 md:w-96 w-60 opacity-50 rounded-xl",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/neocities-Logo.png",
+    img: "/bus.jpg",
     spareImg: "/grid.svg",
   },
   {
@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Ultimate Tic Tac Toe agent",
-    description: "Challenge an AI trained to play Ultimate Tic Tac Toe. This project showcases my skills in Feature Engineering, Linear Regression, and Neural Networks.",
+    description: "Challenge an AI trained to play Ultimate Tic Tac Toe. This project showcases my knowledge in AI and web development.",
     img: "/uttt.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://ultimatettt-frontend.vercel.app/",
@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "Movie App",
-    description: "A simple movie web app that allows you to search for movies and view trending movies.",
+    description: "A simple movie web app that allows you to search for movies and check out what movies are trending.",
     img: "/movieapp.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://movie-app-eta-lemon.vercel.app/",
@@ -89,7 +89,7 @@ export const projects = [
   {
     id: 3,
     title: "So Long",
-    description: "A basic 2D game written in C using the minilibx library. The game features a player that can move around the screen and collect items.",
+    description: "A basic single player 2D game written in C using the minilibx library. It is a project from 42 School.",
     img: "/so_long.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://github.com/realqijun/so_long",
